@@ -1,0 +1,111 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    margin: 200px;
+    padding: auto;
+    border-radius: 7px;
+    background-color: aliceblue;
+} 
+
+img {
+    float: left;
+    width: 250px;
+    height: 350px;
+    border-radius: 7px 0 0 7px;
+
+}
+
+.title-1 {
+    margin: 20px;
+}
+
+
+.title-2  {
+    margin: 10px;
+    padding-right: 50px;
+    padding-left: 250px;
+}
+
+.title-1 h6 {
+    color: gray;
+    letter-spacing: 3px;
+    padding-left: 260px;
+}
+
+
+.title h2 {
+    padding-right: 10px;
+    padding-left: 100px;
+}
+
+.description {
+}
+
+.description p {
+    color: gray;
+    margin: 20px;
+    padding-left: 240px;
+}
+
+.payment {
+    width: 400px;
+    height: 70px;
+    color: gray;
+}
+
+#dollar {
+    margin: 9px;
+    padding: 0%;
+    padding-left: 260px;
+    color: green;
+    font-size: 20px;
+}
+
+.text-coret {
+    color: gray;
+    align-items: center;
+    font-size: small;
+    padding-left: 5px;
+}
+
+
+
+.button {
+    padding-left: 265px;
+}
+
+.button button {
+    border: none;
+    border-radius: 10px;
+    width: 145px;
+    height: 30px;
+    color: white;
+    background-color: rgb(54, 151, 54);
+    
+}
+
+.button button:hover {
+    background-color: rgb(32, 207, 149);
+    cursor: pointer;
+}
